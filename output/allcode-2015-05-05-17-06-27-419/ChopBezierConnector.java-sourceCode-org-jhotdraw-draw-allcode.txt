@@ -1,0 +1,1 @@
+org jhotdraw draw import org jhotdraw util * import awt * import awt geom * Chop Bezier Connector Chop Box Connector { Chop Bezier Connector { } Chop Bezier Connector Bezier Figure owner { super owner } Point2 chop Figure target Point2 from { Bezier Figure bf = Bezier Figure get Connector Target target bf chop from } } 

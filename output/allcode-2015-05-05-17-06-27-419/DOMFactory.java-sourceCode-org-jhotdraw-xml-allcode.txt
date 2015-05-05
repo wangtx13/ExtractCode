@@ -1,0 +1,1 @@
+org jhotdraw xml Dom Factory { String get Name Dom Storable Object create String String get Enum Name Enum String get Enum Value Enum Enum create Enum String String value } 

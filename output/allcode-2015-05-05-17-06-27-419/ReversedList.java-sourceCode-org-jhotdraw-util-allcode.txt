@@ -1,0 +1,1 @@
+org jhotdraw util import util * Reversed List< T> Abstract List< T> { private List< T> target Reversed List List< T> target { this target = target } T get index { target get target size - 1 - index } size { target size } } 

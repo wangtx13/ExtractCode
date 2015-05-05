@@ -1,0 +1,1 @@
+org jhotdraw draw import awt geom * import org jhotdraw geom * Group Figure Abstract Composite Figure { Group Figure { } can Connect { } Point2 chop Point2 from { Rectangle2 = get Bounds Geom angle To Point Geom point To Angle from } } 

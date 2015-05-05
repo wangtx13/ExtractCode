@@ -1,0 +1,1 @@
+org jhotdraw draw import awt * import awt geom * import util * import * Line Decoration Cloneable Serializable { draw Graphics2 Figure Point2 p1 Point2 p2 get Decoration Radius Figure Rectangle2 get Draw Bounds Figure Point2 p1 Point2 p2 } 
