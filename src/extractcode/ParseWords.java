@@ -25,11 +25,11 @@ public class ParseWords {
         for (String word : allWords) {
             if (!word.equals("")) {
                 String[] splitWords = splitCamelWords(word);
-                /*若word被拆分，将原词也加入*/
-                if (splitWords.length > 1) {
-                    outputWords.append(word.toLowerCase());
-                    outputWords.append(" ");
-                }
+//                /*若word被拆分，将原词也加入*/
+//                if (splitWords.length > 1) {
+//                    outputWords.append(word.toLowerCase());
+//                    outputWords.append(" ");
+//                }
                 for (String aSplitWord : splitWords) {
                     String parsedWords = removeStopWords(aSplitWord);
                     if (parsedWords != null) {

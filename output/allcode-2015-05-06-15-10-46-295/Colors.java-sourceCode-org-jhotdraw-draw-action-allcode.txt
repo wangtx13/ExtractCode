@@ -1,0 +1,1 @@
+org jhotdraw draw action import awt * colors { private colors { } color shadow color c amount { new color math max 0 c get red amount math max 0 c get green amount math max 0 c get blue amount c get alpha } } 

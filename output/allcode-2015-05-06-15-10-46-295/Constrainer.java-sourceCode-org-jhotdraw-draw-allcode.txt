@@ -1,0 +1,1 @@
+org jhotdraw draw import awt * import awt geom * constrainer { 	 	public point2 d constrain point point2 d p is visible 	 	public draw graphics2 d g drawing view view } 

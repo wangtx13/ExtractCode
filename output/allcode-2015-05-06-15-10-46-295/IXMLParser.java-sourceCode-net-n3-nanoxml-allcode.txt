@@ -1,0 +1,1 @@
+net n3 nanoxml import io i o i xml parser { set reader i xml reader reader i xml reader get reader set builder i xml builder builder i xml builder get builder set validator i xml validator validator i xml validator get validator set resolver i xml entity resolver resolver i xml entity resolver get resolver parse xml } 

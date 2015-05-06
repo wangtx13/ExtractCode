@@ -1,0 +1,1 @@
+org jhotdraw draw figure listener implements figure listener { figure area invalidated figure event e { } figure attribute changed figure event e { } figure added figure event e { } figure changed figure event e { } figure removed figure event e { } figure request remove figure event e { } } 
