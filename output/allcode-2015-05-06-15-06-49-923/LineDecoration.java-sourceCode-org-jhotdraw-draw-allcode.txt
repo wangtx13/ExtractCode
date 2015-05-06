@@ -1,0 +1,1 @@
+org jhotdraw draw import awt * import awt geom * import util * import io * linedecoration line decoration cloneable serializable { draw graphics2d graphics2 d g figure f point2d point2 d p1 point2d point2 d p2 getdecorationradius get decoration radius figure f rectangle2d rectangle2 d getdrawbounds get draw bounds figure f point2d point2 d p1 point2d point2 d p2 } 

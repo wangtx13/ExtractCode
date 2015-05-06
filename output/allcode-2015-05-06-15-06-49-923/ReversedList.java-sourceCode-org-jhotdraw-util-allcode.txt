@@ -1,0 +1,1 @@
+org jhotdraw util import util * reversedlist<t> reversed list< t> abstractlist<t> list< t> { private list<t> list< t> target reversedlist reversed list list<t> list< t> target { this target = target } t get index { target get target size 1 index } size { target size } } 

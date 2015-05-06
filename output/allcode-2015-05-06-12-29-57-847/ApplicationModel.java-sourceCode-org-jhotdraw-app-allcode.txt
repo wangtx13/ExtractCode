@@ -1,0 +1,1 @@
+org jhotdraw app import util * import javax swing * application model { get get get copyright project create project init project application project init application application put action action action action get action list< tool bar> create tool bars application project list< menu> create menus application project } 

@@ -1,0 +1,1 @@
+org jhotdraw draw import awt * import awt geom * layouter { Rectangle2D rectangle2 calculateLayout calculate layout CompositeFigure composite figure compositeFigure composite figure Point2D point2 anchor Point2D point2 Rectangle2D rectangle2 layout CompositeFigure composite figure compositeFigure composite figure Point2D point2 anchor Point2D point2 } 

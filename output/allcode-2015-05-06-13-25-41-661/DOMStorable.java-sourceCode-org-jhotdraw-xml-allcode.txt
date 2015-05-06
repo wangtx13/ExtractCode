@@ -1,0 +1,1 @@
+org jhotdraw xml import * dom storable { write dom output out read dom input } 

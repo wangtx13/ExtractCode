@@ -1,0 +1,1 @@
+net n3 nanoxml import reader import import not found import net malformed xml reader { char read of current stream unread char ch get line nr reader open stream publicid systemid malformed not found start new stream reader reader start new stream reader reader internal entity get stream level set systemid systemid malformed set publicid publicid get systemid get publicid } 

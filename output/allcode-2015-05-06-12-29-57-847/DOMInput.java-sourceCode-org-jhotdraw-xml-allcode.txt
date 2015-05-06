@@ -1,0 +1,1 @@
+org jhotdraw xml import dom input { get tag get attribute default value get text get text default value get attribute default value get attribute default value get attribute default value util list< string> get inherited attribute get element count get element count tag open element index open element tag open element tag index close element read read index } 

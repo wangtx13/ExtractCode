@@ -1,0 +1,1 @@
+org jhotdraw draw import org jhotdraw xml dom storable import awt * import awt geom * import * connector cloneable serializable dom storable { point2 find start connection figure connection point2 find connection figure connection figure get owner rectangle2 get bounds point2 get anchor update anchor point2 contains point2 draw graphics2 clone } 

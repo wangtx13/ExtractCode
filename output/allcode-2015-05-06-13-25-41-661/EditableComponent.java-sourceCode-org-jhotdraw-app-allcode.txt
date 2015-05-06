@@ -1,0 +1,1 @@
+org jhotdraw app editable component { 	 	public copy 	 	public cut 	 	public delete 	 	public paste 	 	public duplicate 	 	public select all } 

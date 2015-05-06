@@ -1,0 +1,1 @@
+org jhotdraw draw import util * handlelistener handle listener eventlistener event listener { areainvalidated area invalidated handleevent handle event e handlerequestremove handle request remove handleevent handle event e handlerequestsecondaryhandles handle request secondary handles handleevent handle event e } 

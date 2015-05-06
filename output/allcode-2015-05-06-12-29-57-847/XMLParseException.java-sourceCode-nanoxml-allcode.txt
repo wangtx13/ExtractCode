@@ -1,0 +1,1 @@
+nanoxml xml parse runtime { NO_LINE = -1 private line nr xml parse message { super xml parse during parsing of + == ? the xml definition + + element + + message this line nr = xml parse NO_LINE } xml parse line nr message { super xml parse during parsing of + == ? the xml definition + + element + line + line nr + + message this line nr = line nr } get line nr { this line nr } } 
