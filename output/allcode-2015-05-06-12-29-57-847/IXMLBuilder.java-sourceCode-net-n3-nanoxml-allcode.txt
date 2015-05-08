@@ -1,1 +1,0 @@
-net n3 nanoxml import reader import xml builder { start building systemid line nr new processing instruction target reader reader start element prefix systemid line nr add attribute key prefix value type element attributes processed prefix element prefix add data reader reader systemid line nr get result } 

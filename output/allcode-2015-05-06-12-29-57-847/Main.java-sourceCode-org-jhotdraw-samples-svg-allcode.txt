@@ -1,1 +1,0 @@
-org jhotdraw samples svg import org jhotdraw app * { args { application app = new default application application model model = new application model model set draw model set 0 1 model set copyright copyright 2006 werner randelshofer model set project org jhotdraw samples svg project app set model model app launch args } } 

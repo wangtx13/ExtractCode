@@ -1,1 +1,0 @@
-org jhotdraw draw import awt * import util * import org jhotdraw geom * import org jhotdraw draw attribute keys * list figure graphical composite figure { list figure { this } list figure figure presentation figure { super presentation figure set layouter new vertical layouter LAYOUT_INSETS set this new insets2 d 4 8 4 8 } } 

@@ -1,1 +1,0 @@
-org jhotdraw draw import awt * import awt geom * locator { 	 	public Point2D point2 locate figure owner 	 	public Point2D point2 locate figure owner figure dependent } 

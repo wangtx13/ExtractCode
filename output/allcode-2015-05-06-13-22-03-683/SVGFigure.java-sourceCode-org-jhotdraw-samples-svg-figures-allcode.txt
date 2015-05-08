@@ -1,1 +1,0 @@
-org jhotdraw samples svg figures import org jhotdraw draw * SVGFigure figure figure { isEmpty empty } 

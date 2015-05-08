@@ -1,1 +1,0 @@
-org jhotdraw draw import util * FigureLayerComparator figure layer comparator implements Comparator<Figure> comparator< figure> { FigureLayerComparator figure layer comparator INSTANCE = new FigureLayerComparator figure layer comparator private FigureLayerComparator figure layer comparator { } compare figure f1 figure f2 { f1 getLayer get layer - f2 getLayer get layer } } 

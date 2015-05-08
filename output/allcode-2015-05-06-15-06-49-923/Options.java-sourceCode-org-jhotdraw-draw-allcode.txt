@@ -1,1 +1,0 @@
-org jhotdraw draw options { options { } isfractionalmetrics is fractional metrics { } istextantialiased is text antialiased { } } 

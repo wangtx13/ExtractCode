@@ -1,1 +1,0 @@
-net n3 nanoxml import util hashtable import io reader import io reader i xml entity resolver { add internal entity name value add external entity name publicid systemid reader get entity i xml reader xml reader name xml parse is external entity name } 

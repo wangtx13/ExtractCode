@@ -1,1 +1,0 @@
-org jhotdraw util import util * localeutil locale util { private locale defaultlocale default locale localeutil locale util { } setdefault set default locale newvalue new value { defaultlocale default locale = newvalue new value } locale getdefault get default { defaultlocale default locale == ? locale getdefault get default defaultlocale default locale } } 

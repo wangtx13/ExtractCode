@@ -1,1 +1,0 @@
-org jhotdraw draw import org jhotdraw util * import awt * import org jhotdraw geom * Abstract Layouter implements Layouter { Insets2 get Insets Figure child { Insets2 value = Insets2 child get Attribute Composite Figure LAYOUT_INSETS value == ? new Insets2 0 0 0 0 Insets2 value clone } } 

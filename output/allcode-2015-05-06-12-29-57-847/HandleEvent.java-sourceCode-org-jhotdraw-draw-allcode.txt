@@ -1,1 +1,0 @@
-org jhotdraw draw import awt * import util * handle event event { private rectangle invalidated area handle event handle src rectangle invalidated area { super src this invalidated area = invalidated area } handle get handle { handle get source } rectangle get invalidated area { invalidated area } } 

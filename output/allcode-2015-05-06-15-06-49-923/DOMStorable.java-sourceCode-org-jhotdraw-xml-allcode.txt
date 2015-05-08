@@ -1,1 +1,0 @@
-org jhotdraw xml import io * domstorable dom storable { write domoutput dom output out ioexception i o read dominput dom input in ioexception i o } 

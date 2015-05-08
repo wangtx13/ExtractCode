@@ -1,1 +1,0 @@
-org jhotdraw draw import util * Handle Listener Event Listener { area Invalidated Handle Event handle Request Remove Handle Event handle Request Secondary Handles Handle Event } 

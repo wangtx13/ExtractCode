@@ -1,1 +1,0 @@
-org jhotdraw draw Figure Selection Event util Event Object { Figure Selection Event Drawing View source { super source } Drawing View get View { Drawing View source } } 

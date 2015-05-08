@@ -1,1 +1,0 @@
-org jhotdraw draw import awt * import awt geom * import org jhotdraw draw attribute keys * font size locator implements locator { font size locator { } point2 locate figure owner { point2 = owner get start point += FONT_SIZE get owner if owner instanceof text holder { += text holder owner get insets top } } point2 locate figure owner figure dependent { locate owner } } 

@@ -1,1 +1,0 @@
-org jhotdraw draw import awt geom * import util * import io * import org jhotdraw geom * liner serializable cloneable { lineout connectionfigure connection figure figure collection<handle> collection< handle> createhandles create handles bezierpath bezier path path liner clone } 

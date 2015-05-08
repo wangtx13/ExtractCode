@@ -1,1 +1,0 @@
-org jhotdraw draw import awt * import awt geom * import org jhotdraw xml * abstractlocator locator implements locator domstorable dom storable { abstractlocator locator { } point2d point2 d locate figure owner figure dependent { locate owner } } 

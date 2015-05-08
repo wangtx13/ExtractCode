@@ -1,1 +1,0 @@
-org jhotdraw draw import util * drawing listener event listener { area invalidated drawing event figure added drawing event figure removed drawing event } 

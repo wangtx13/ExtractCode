@@ -1,1 +1,0 @@
-org jhotdraw draw import util * Figure Listener Event Listener { figure Area Invalidated Figure Event figure Attribute Changed Figure Event figure Changed Figure Event figure Added Figure Event figure Removed Figure Event figure Request Remove Figure Event } 

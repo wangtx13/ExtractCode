@@ -1,1 +1,0 @@
-org jhotdraw draw figure selection listener util event listener { selection changed figure selection event evt } 

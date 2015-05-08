@@ -1,1 +1,0 @@
-org jhotdraw app action import beans * Arrangeable { enum Arrangement { V E R T I C A L H O R I Z O N T A L C A S C A E } set Arrangement Arrangement new Value Arrangement get Arrangement add Property Change Listener Property Change Listener remove Property Change Listener Property Change Listener } 

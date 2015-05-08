@@ -1,1 +1,0 @@
-org jhotdraw draw import awt * import awt event * import javax swing event * tool mouse listener mouse motion listener key listener { activate drawing editor editor deactivate drawing editor editor add tool listener tool listener l remove tool listener tool listener l draw graphics2 d g edit delete edit cut edit copy edit duplicate edit paste } 

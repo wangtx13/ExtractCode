@@ -1,1 +1,0 @@
-org jhotdraw draw import awt geom * chop triangle connector chop box connector { chop triangle connector { } chop triangle connector triangle figure owner { super owner } point2 d chop figure target point2 d from { triangle figure bf = triangle figure get connector target target bf chop from } } 

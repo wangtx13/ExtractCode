@@ -1,1 +1,0 @@
-org jhotdraw xml domfactory dom factory { getname get name domstorable dom storable o create name getenumname get enum name enum o getenumvalue get enum value enum o enum createenum create enum name value } 
