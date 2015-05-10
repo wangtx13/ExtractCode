@@ -21,17 +21,25 @@ public class ParseWords {
 
         /*分隔符：空格、引号"、左小括号(、右小括号)、左中括号[、有中括号]、点.、&、冒号:、分号;、换行符号\r\n、逗号*/
         String[] allWords = originalWords.toString().split(" |\"|\\(|\\)|\\[|\\]|\\.|&|:|;|\r\n|,|-");
-        
+
         for (String word : allWords) {
             if (!word.equals("")) {
                 String[] splitWords = splitCamelWords(word);
                 /*若word被拆分，将原词也加入*/
                 if (splitWords.length > 1) {
-                    outputWords.append(word.toLowerCase());
-                    outputWords.append(" ");
+                    String parsedWords = removeStopWords(word.toLowerCase());
+                    if(parsedWords != null)
+                        parsedWords = removeClassLibrary(parsedWords.toLowerCase());
+                    if (parsedWords != null) {
+                        outputWords.append(word.toLowerCase());
+                        outputWords.append(" ");
+                    }
                 }
+                
                 for (String aSplitWord : splitWords) {
                     String parsedWords = removeStopWords(aSplitWord);
+                    if(parsedWords != null)
+                        parsedWords = removeClassLibrary(parsedWords.toLowerCase());
                     if (parsedWords != null) {
                         outputWords.append(parsedWords);
                         outputWords.append(" ");
@@ -82,12 +90,12 @@ public class ParseWords {
             if (startWithUpper && words.length != 0) {
                 list.remove(0);
             }
-            
+
             /*将list中所有字符串转为小写*/
-            for(int i = 0; i < list.size(); ++i) {
+            for (int i = 0; i < list.size(); ++i) {
                 list.set(i, list.get(i).toLowerCase());
             }
-            
+
             /*拷贝list到一个新数组*/
             String[] result = list.toArray(new String[1]);
             return result;
@@ -99,22 +107,78 @@ public class ParseWords {
     }
 
     public static String removeStopWords(String word) {
+        //去除所有空格、制表符、换行、回车
+        String newWord = replaceBlank(word);
+
         String stopList = "abstract array boolean br class code dd ddouble dl "
-                + "don double dt error exception exist exists extends false "
-                + "file final gt id implementation implemented import int interface "
-                + "interfaces invoke invokes java lead li main method methodname "
-                + "methods nbsp null object objects overrides package packages "
-                + "param parameters precison println protected public quot "
-                + "return returned returns static string system throws tilocblob "
-                + "true ul version void";
+                + "don double dt error exception exist exists extends false file "
+                + "final float gt id implementation implemented import int "
+                + "integer interface interfaces invoke invokes java lead li long "
+                + "main method methodname methods nbsp null object objects "
+                + "overrides package packages param parameters precison println "
+                + "private protected public quot return returned returns static "
+                + "string system throws tilocblob true ul version void";
         String[] stopwords = stopList.split(" ");
-        for(String s : stopwords) {
-            if(s.equals(word)) {
-                word = null;
+        for (String s : stopwords) {
+            if (s.equals(newWord)) {
+                newWord = null;
                 break;
             }
         }
+
+        return newWord;
+    }
+
+    /*去除所有空格、制表符、换行、回车*/
+    public static String replaceBlank(String str) {
+        String dest = "";
+        if (str != null) {
+            Pattern p = Pattern.compile("\\s*|\t|\r|\n");
+            Matcher m = p.matcher(str);
+            dest = m.replaceAll("");
+        }
+        return dest;
+    }
+    
+    public static String removeClassLibrary(String word) {
+
+        String stopList_common = "util lang";
+        boolean common = true;
+        String stopList_draw = "javax swing awt";
+        boolean draw = true;
+        String stoplist_customize = "org jhotdraw";
+        boolean customize = true;
+
+        if (common) {
+            String[] stopwords = stopList_common.split(" ");
+            for (String s : stopwords) {
+                if (s.equals(word)) {
+                    word = null;
+                    break;
+                }
+            }
+        }
         
+        if (draw && (word != null)) {
+            String[] stopwords = stopList_draw.split(" ");
+            for (String s : stopwords) {
+                if (s.equals(word)) {
+                    word = null;
+                    break;
+                }
+            }
+        }
+        
+        if (customize && (word != null)) {
+            String[] stopwords = stoplist_customize.split(" ");
+            for (String s : stopwords) {
+                if (s.equals(word)) {
+                    word = null;
+                    break;
+                }
+            }
+        }
+
         return word;
     }
 }

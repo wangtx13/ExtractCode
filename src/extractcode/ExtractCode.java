@@ -45,6 +45,7 @@ public class ExtractCode {
                     //read lines from the file
                     String lineString = null;
                     while ((lineString = reader.readLine()) != null) {
+                        //去除import ...；和package ...；信息
                         if (!lineString.contains("import") && !lineString.contains("package")) {
                             int strLength = lineString.length();
                             char currentChar = '$';
@@ -77,7 +78,7 @@ public class ExtractCode {
                         }
                     }
 
-                    outputStr = ParseWords.parseAllWords(outputStr);
+                    outputStr = ParseWords.parseAllWords(outputStr);                   
                     writer.write(outputStr.toString());
                     writer.flush();
                 }
